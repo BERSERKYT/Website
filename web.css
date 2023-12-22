@@ -1,0 +1,40 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: auto;
+    height: 100vh;
+    background: #eee;
+}
+.navbar{
+    max-width: auto;
+    height: 50px;
+    overflow-y: hidden;
+    background: transparent linear-gradient(90deg, #5CA2A5 0%, #2E585C 91%);
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+.first_bg {
+    width: auto;
+    height: 800px;
+    background:url('src/bg-1.jpg') rgba(0, 0, 0, 0.4) no-repeat; /* Utilisation de rgba pour simuler l'opacité sur le fond */
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+.second_bg {
+    width: 50%;
+    height: 100%;
+    background: transparent url('src/bg-2.jpg') 0% 0% no-repeat padding-box;
+    background-size:cover ;
+
+}
+h2{
+    color: #B01513;
+}
+h1, h3, h5{
+    color: #2A5155;
+}
