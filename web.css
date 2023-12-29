@@ -87,18 +87,20 @@ h1, h3, h5{
     margin: 20px;
     border-radius: 8px; 
 }
-input, .box1, .box2, .box3{
+#name1, #name2{
+    font-family: "Figtree", sans-serif;
+    font-size: 14px;
+    color: #2A5155;
     width: 350px;
     height: 40px;
     outline: none;
-    /* padding: 0 20px; */
     line-height: 40px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    border: 1px solid #777;
+    border: 2px solid transparent;
     background: white;
     transition: 0.1s ease;
     -webkit-transition: 0.1s ease;
@@ -106,62 +108,46 @@ input, .box1, .box2, .box3{
     -ms-transition: 0.1s ease;
     -o-transition: 0.1s ease;
 }
-.name1, .name2, .name3{
-    position: absolute;
+#name3{
+    font-family: "Figtree", sans-serif;
+    font-size: 14px;
     color: #2A5155;
-    padding: 0 20px;
-    margin: 0 10px;
-    transition: 0.2s ease;
-    -webkit-transition: 0.2s ease;
-    -moz-transition: 0.2s ease;
-    -ms-transition: 0.2s ease;
-    -o-transition: 0.2s ease;
-}
-input, .box4{
     width: 350px;
+    height: 80px px;
     outline: none;
-    /* padding: 0 20px; */
-    line-height: 40px;
     border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    border: 1px solid #777;
+    border: 2px solid transparent;
     background: white;
-    transition: 0.1s ease;
-    -webkit-transition: 0.1s ease;
-    -moz-transition: 0.1s ease;
-    -ms-transition: 0.1s ease;
-    -o-transition: 0.1s ease;
 }
-.name4{
-    position: absolute;
+select, input {
+    line-height: 40px;
+    margin-bottom: 10px;
+    font-family: "Figtree", sans-serif;
+    font-size: 15px;
+    background: #fff;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    appearance: none;
+    cursor: pointer;
+  }
+  
+  select {
+    background-image: url('https://flagsworld.org/img/cflags/spain-flag.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 20px;
+  }
+#name4{
+    font-family: "Figtree", sans-serif;
+    font-size: 14px;
     color: #2A5155;
-    padding: 0 20px;
-    margin: 0 10px;
-    transition: 0.2s ease;
-    -webkit-transition: 0.2s ease;
-    -moz-transition: 0.2s ease;
-    -ms-transition: 0.2s ease;
-    -o-transition: 0.2s ease;
-}
-input:focus,
-input:valid{
-    color: #2A5155;
-    border: 2px solid #eee;
-}
-input:focus + .name1,
-input:valid + .name1{
-    color: #2A5155;
-    height: 20px;
-    line-height: 20px;
-    transform: translate(-15px, -16px) scale(0.88);
-    -webkit-transform: translate(-15px, -16px) scale(0.88);
-    -moz-transform: translate(-15px, -16px) scale(0.88);
-    -ms-transform: translate(-15px, -16px) scale(0.88);
-    -o-transform: translate(-15px, -16px) scale(0.88);
-    z-index: 1111;
+    width: 350px;
+    height: 80px px;
+    line-height: 40px;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    background: white;
 }
 .bigbox .lastbox{
     background:#D9EEED ;

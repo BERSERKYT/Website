@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Praedium Web Site</title>
     <link rel="stylesheet" href="web.css">
+    <script src="web.js"></script>
 </head>
 <body>
     <div class="container">
@@ -28,23 +29,31 @@
                     </h5>
                     <div class="bigbox">
                         <div class="box1">
-                            <input type="text" required>
-                            <div class="name1">Nom et Prénom</div>
+                            <textarea name="text1" id="name1" cols="0" rows="0" placeholder="Nom et prénom"></textarea>
                         </div>
                         <div class="box2">
-                            <input type="text" required>
-                            <div class="name2">E-mail</div>
+                            <textarea name="text2" id="name2" cols="0" rows="0" placeholder="E-mail"></textarea>
                         </div>
                         <div class="box3">
-                            <input type="text" required>
-                            <div class="name3"></div>
+                            <form>
+                                <select id="country" name="country" onchange="updateCountryCode()">
+                                    <option value="Spain" data-image="https://flagsworld.org/img/cflags/spain-flag.png" data-code="+34">Spain (+34)</option>
+                                    <option value="France" data-image="https://flagsworld.org/img/cflags/France-flag.png" data-code="+33">France (+33)</option>
+                                    <option value="Ghana" data-image="https://flagsworld.org/img/cflags/ghana-flag.png" data-code="+233">Ghana (+233)</option>
+                                    <option value="Nigeria" data-image="https://flagsworld.org/img/cflags/nigeria-flag.png" data-code="+234">Nigeria (+234)</option>
+                                    <option value="Brazil" data-image="https://flagsworld.org/img/cflags/brazil-flag.png" data-code="+55">Brazil (+55)</option>
+                                    <option value="Ecuador" data-image="https://flagsworld.org/img/cflags/ecuador-flag.png" data-code="+593">Ecuador (+593)</option>
+                                    <option value="Ivory_Coast" data-image="https://flagsworld.org/img/cflags/cote-divoire-flag.png" data-code="+225">Côte d'Ivoire (+225)</option>
+                                </select>
+                                <input type="text" id="phone" name="phone" placeholder="Entrez votre numéro">
+                            </form>
+
                         </div>
                         <div class="box4">
-                            <input type="text" required>
-                            <div class="name4">message</div>
-                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                            <textarea name="text4" id="name4" cols="0" rows="0" placeholder="Message"></textarea>
                         </div>
                         <div class="lastbox">Soumettre</div>
+                        
                     </div>
                 </div>
 
