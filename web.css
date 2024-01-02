@@ -18,7 +18,7 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-.call{
+.navbar a{
     width: 150px;
     height: 30px;
     background: white;
@@ -57,6 +57,7 @@ p{
 h2{
     color: #B01513;
     margin: 30px;
+    text-decoration: underline;
 }
 h1, h3, h5{
     color: #2A5155;
@@ -73,7 +74,7 @@ h1, h3, h5{
     align-items: center;
     flex-direction: column;
 }
-.box1, .box2, .box3{
+.box1, .box2{
     display: flex;
     align-items: center;
     margin: 10px;
@@ -83,11 +84,7 @@ h1, h3, h5{
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
 }
-.box4{
-    margin: 20px;
-    border-radius: 8px; 
-}
-#name1, #name2{
+input[type="text"], .box1, .box2{
     font-family: "Figtree", sans-serif;
     font-size: 14px;
     color: #2A5155;
@@ -95,33 +92,22 @@ h1, h3, h5{
     height: 40px;
     outline: none;
     line-height: 40px;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
     border: 2px solid transparent;
-    background: white;
     transition: 0.1s ease;
     -webkit-transition: 0.1s ease;
     -moz-transition: 0.1s ease;
     -ms-transition: 0.1s ease;
     -o-transition: 0.1s ease;
 }
-#name3{
-    font-family: "Figtree", sans-serif;
-    font-size: 14px;
-    color: #2A5155;
-    width: 350px;
-    height: 80px px;
-    outline: none;
-    border-radius: 10px;
-    border: 2px solid transparent;
-    background: white;
-}
-select, input {
+.bigbox form select, .bigbox form input, .country{
+    width: 165px;
     line-height: 40px;
-    margin-bottom: 10px;
+    margin: 5px;
     font-family: "Figtree", sans-serif;
     font-size: 15px;
     background: #fff;
@@ -131,7 +117,7 @@ select, input {
     cursor: pointer;
   }
   
-  select {
+  .bigbox form select {
     background-image: url('https://flagsworld.org/img/cflags/spain-flag.png');
     background-repeat: no-repeat;
     background-position: right center;
@@ -141,21 +127,35 @@ select, input {
     font-family: "Figtree", sans-serif;
     font-size: 14px;
     color: #2A5155;
+    margin: 10px;
     width: 350px;
-    height: 80px px;
+    height: 80px;
     line-height: 40px;
     outline: none;
-    border-radius: 10px;
-    border: 2px solid transparent;
-    background: white;
+    border-radius: 6px;
+    border: transparent;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
 }
-.bigbox .lastbox{
+a {
     background:#D9EEED ;
     width: 350px;
     height: 50px;
-    margin: 20px; 
-    border-radius: 8px;
+    margin: 6px;
+    border-radius: 6px;
     display: flex;
     justify-content: center;
     align-items: center;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #2A5155;
+}
+a:hover{
+    color: #5CA2A5;
 }
