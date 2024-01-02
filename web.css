@@ -64,7 +64,7 @@ h1, h3, h5{
     margin: 30px;
 }
 .bigbox{
-    background: #2A5155;
+    background: transparent linear-gradient(0deg, #33696E 0%, #5CA2A5 100%) 0% 0% no-repeat padding-box;
     width: 400px;
     height: 450px;
     margin: 30px;
@@ -115,6 +115,7 @@ input[type="text"], .box1, .box2{
     border-radius: 5px;
     appearance: none;
     cursor: pointer;
+    color: #2A5155;
   }
   
   .bigbox form select {
