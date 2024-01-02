@@ -118,7 +118,6 @@ input[type="text"], .box1, .box2{
   }
   
   .bigbox form select {
-    background-image: url('https://flagsworld.org/img/cflags/spain-flag.png');
     background-repeat: no-repeat;
     background-position: right center;
     background-size: 20px;
