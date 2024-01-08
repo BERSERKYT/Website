@@ -130,7 +130,7 @@ input[type="text"], .box1, .box2{
     margin: 10px;
     width: 350px;
     height: 80px;
-    line-height: 40px;
+    line-height: 20px;
     outline: none;
     border-radius: 6px;
     border: transparent;
@@ -159,3 +159,23 @@ a {
 a:hover{
     color: #5CA2A5;
 }
+
+.sec_bg{
+    width: auto;
+    height: 430px;
+    background:#F4F9F9 no-repeat; /* Utilisation de rgba pour simuler l'opacité sur le fond */
+    background-size: cover;
+}
+.choice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+    color: #B01513;
+    font-family:"Figtree", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+/* i{
+    
+} */
